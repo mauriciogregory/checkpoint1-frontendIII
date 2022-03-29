@@ -1,4 +1,3 @@
-import logo from "../../assets/img/logo2_.png";
 import "./index.css";
 
 function handler(id) {
@@ -9,9 +8,7 @@ export default function Header() {
   return (
     <header data-aos="zoom-out-right">
       <h1>Portifólio</h1>
-      {/* <img className="logo" src={logo} width={60} heigth={30} /> */}
       <ul className="menu">
-        {/* {} */}
         <li className="item-menu" onClick={() => handler("about")}>
           About
         </li>
